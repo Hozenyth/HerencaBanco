@@ -35,6 +35,11 @@ namespace Heranca
             OperacoesEmConta.Add(valor);
         }
 
+        internal void setAttributes(string agencia, string numero, double saldo)
+        {
+            throw new NotImplementedException();
+        }
+
         public void Transferir(double valor, Conta conta)
         {
             throw new NotImplementedException();
